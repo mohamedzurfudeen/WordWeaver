@@ -165,8 +165,8 @@ footer {
     }
 }
 
-@media all and (orientation: landscape) {
 
+@media (pointer: coarse){
     header.p-5{
         padding:1rem !important;
     }
@@ -177,5 +177,8 @@ footer {
         width:2rem;
         height: 2rem;
     }
-
+    .btn{
+        line-height: 1 !important;
+        padding: 0.375rem 0.55rem !important;
+    }
 }
