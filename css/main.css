@@ -164,3 +164,18 @@ footer {
         transform: rotate(90deg); 
     }
 }
+
+@media all and (orientation: landscape) {
+
+    header.p-5{
+        padding:1rem !important;
+    }
+    .row.mt-5{
+        margin-top: 1.5rem !important;
+    }
+    .key{
+        width:2rem;
+        height: 2rem;
+    }
+
+}
