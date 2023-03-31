@@ -88,11 +88,6 @@ header {
     width: 35%;
 }
 
-/* .wrapper {
-    width: fit-content;
-    margin: auto;
-} */
-
 .word-display {
     position: relative;
     display: inline-block;
@@ -148,22 +143,30 @@ header {
     margin-left: 5px;
 }
 
-/* .hint-container {
-    clear: right;
-} */
 
 footer {
     background-color: #373b52;
 }
-@media all and (orientation: portrait) {
-    body {
-        -webkit-transform: rotate(90deg); 
-        -moz-transform: rotate(90deg); 
-        -ms-transform: rotate(90deg); 
-        -o-transform: rotate(90deg); 
-        transform: rotate(90deg); 
+@media screen and (orientation: portrait) {
+    body::before {
+      content: "Please rotate your device to landscape mode to Play this Game!.";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.95);
+      color: #fff;
+      font-size: 3rem;
+      z-index: 9999;
+      text-align: center;
+      padding: 20px;
     }
-}
+  }
+  
 
 
 @media (pointer: coarse){
