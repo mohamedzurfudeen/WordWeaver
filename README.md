@@ -1,8 +1,8 @@
-# Guess the Word Javascript Game
-## The classical hangman puzzle game.
-We have to figure out which is the secret word before the man gets hanged. With each error, the man will be closer to die!
+# Ihsan's WordWeaver
 
-Try out live demo on [Netlify](https://whatword.netlify.app/) or [Github Pages](https://mhamid49.github.io/Guess-the-Word-Javascript-Game/)
+We have to figure out which is the secret word before the Health dried up. With each error, you will lose one health!
+
+Try out live demo on [Netlify](https://ihsanswordweaver.netlify.app/) or [Github Pages](https://mohamedzurfudeen.github.io/WordWeaver)
 
 ### Libraries and Resources
 * RequireJS
@@ -18,5 +18,5 @@ Try out live demo on [Netlify](https://whatword.netlify.app/) or [Github Pages](
 * Open `index.html` to try it out
 
 ## Credits:
-* Developer: M. Hamid
-* Hangman Images: Marc Oliveras
+* Developer: Mohamed Zurfudeen
+* Idea For the Game: Nasrin Sharfudeen, Mohamed Ihsan
