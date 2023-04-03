@@ -53,6 +53,14 @@ define(["jquery", "fetch", "methods", "api"], function($, dataset, methods, api)
     // categoryElem.innerHTML = selectedCategory
     // selectedHint = findMatchList[0].hint
     // isHint = false
+    
+    // get the data that word length is <=5
+    // let test =Object.values(dataset);
+    // let newdata = []
+    // var res = test.filter(function(curr){
+    //  return curr.word.length<=5
+    // })
+    // console.log("Result : ",res);
 
     let selectedId
     let selectedWord
