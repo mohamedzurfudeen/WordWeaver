@@ -166,6 +166,9 @@ footer {
     #idenmob{
         display: none;
     }
+    h5{
+        font-size: 1rem;
+    }
     @media screen and (orientation: portrait) {
         body::before {
           content: "Please rotate your device to landscape mode to Play this Game!.";
